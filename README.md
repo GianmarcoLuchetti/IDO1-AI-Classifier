@@ -1,2 +1,2 @@
 # Artificial-Intelligence-Guided-Approaches-for-Next-Generation-Immunotherapies
-In this work, exploiting Geometric Deep Learning technologies, an AI-based system was developed that is able to classify compounds according to their activity against the enzyme Indoleamine-2,3-dioxygenase 1 (IDO1).
+In this work, exploiting Geometric Deep Learning technologies, an AI-based system was developed that is able to classify compounds according to their activity against the enzyme Indoleamine-2,3-dioxygenase 1 (IDO1). Given the key role of this enzyme in the onset of immune resistance by various tumours, this work is shared in order to help identify potential active compounds.
