@@ -7,7 +7,7 @@ Using **Graph Neural Networks** (GNNs), trained on bioactivity data regarding co
 *	**class 2**, moderately active compounds. 
 *	**class 3**, very active compounds.
   
-![Criteria for assigning activity classes.](https://github.com/GianmarcoLuchetti/IDO1-AI-Classifier/blob/main/label.png)
+![Criteria for assigning activity classes.](https://github.com/GianmarcoLuchetti/IDO1-AI-Classifier/blob/main/img/label.png)
 
 ## Repository Content
 * **src folder**, contains the codes and elements required to run the software, including:
@@ -40,15 +40,17 @@ For further information, please refer to the official Anaconda documentation ava
 ## Software Execution
 After configuring and activating the environment, the software can be run via the Anaconda prompt on Windows or via terminal on MacOS/Linux. After moving to the directory containing the executable files (e.g. src on the desktop), to launch the software run the command `python main.py`.
 
-
+![Code to launch the software.](https://github.com/GianmarcoLuchetti/IDO1-AI-Classifier/blob/main/img/run.png)
 
 The software will run and ask the user to enter the path to the dataset containing the samples to be analysed. This dataset must have a .txt extension and must necessarily have a column named 'Smiles'/'SMILES'/'smiles', which contains the SMILES strings of the samples. In addition, if columns named "zinc_id", "Molecule ChEMBL ID" and "Molecule Name" are present, this information will be retained in the final output, but is not required for execution purposes.
 
-
+![Example of .txt dataset for analysis.](https://github.com/GianmarcoLuchetti/IDO1-AI-Classifier/blob/main/img/data.png)
 
 After execution, the software will ask the user whether to save the results obtained, which will always include the SMILES string of the sample, the predicted activity class, and the prediction probability. In the first case, the user will be asked to specify the path where the results are to be saved and the name to be assigned to the file; in the second case, the results will be displayed in the terminal. The first option is recommended for many samples.
 
-
+![Example of results obtained from the previous dataset.](https://github.com/GianmarcoLuchetti/IDO1-AI-Classifier/blob/main/img/res.png)
 
 ## References
 The following project was developed at the Pharmaceutical Sciences and Engineering Departments of the University of Perugia. The student Gianmarco Luchetti Sfondalmondo followed this development as a master's thesis project, under the supervision of Professor Antonio Macchiarulo and Professor Gianluca Reali.
+
+![University of Perugia logo.](https://github.com/GianmarcoLuchetti/IDO1-AI-Classifier/blob/main/img/unipg.png)
