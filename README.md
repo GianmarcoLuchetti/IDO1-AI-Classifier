@@ -6,7 +6,7 @@ Using **Graph Neural Networks** (GNNs), trained on bioactivity data regarding co
 *	**class 1**, low active compounds. 
 *	**class 2**, moderately active compounds. 
 *	**class 3**, very active compounds.
-
+![Criteria for assigning activity classes.](https://github.com/GianmarcoLuchetti/IDO1-AI-Classifier/blob/label.png?raw=true)
 
 ## Repository Content
 * **src folder**, contains the codes and elements required to run the software, including:
