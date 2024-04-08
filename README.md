@@ -22,7 +22,7 @@ The repository can be downloaded freely from GitHub either manually or by using 
 
 
 ## Configuring the Environment
-To configure the execution environment, it is necessary to download the Python package manager Anaconda, which can be obtained free on Windows/MacOS/Linux OS at the [following link]([INSTALL ANACONDA LINK](https://www.anaconda.com/download)). Once the manager has been installed, via the Anaconda prompt on Windows, or via terminal on MacOS/Linux, a Python environment must be created and then activated using the following command:
+To configure the execution environment, it is necessary to download the Python package manager Anaconda, which can be obtained free on Windows/MacOS/Linux OS at the [following link](https://www.anaconda.com/download)). Once the manager has been installed, via the Anaconda prompt on Windows, or via terminal on MacOS/Linux, a Python environment must be created and then activated using the following command:
 ```
 conda create -n env_name python=3.10
 conda activate env_name
@@ -34,3 +34,20 @@ pip install -r requirements.txt
 ```
 
 For further information, please refer to the official Anaconda documentation available at the [following link](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#activating-an-environment).
+
+
+## Software Execution
+After configuring and activating the environment, the software can be run via the Anaconda prompt on Windows or via terminal on MacOS/Linux. After moving to the directory containing the executable files (e.g. src on the desktop), to launch the software run the command `python main.py`.
+
+
+
+The software will run and ask the user to enter the path to the dataset containing the samples to be analysed. This dataset must have a .txt extension and must necessarily have a column named 'Smiles'/'SMILES'/'smiles', which contains the SMILES strings of the samples. In addition, if columns named "zinc_id", "Molecule ChEMBL ID" and "Molecule Name" are present, this information will be retained in the final output, but is not required for execution purposes.
+
+
+
+After execution, the software will ask the user whether to save the results obtained, which will always include the SMILES string of the sample, the predicted activity class, and the prediction probability. In the first case, the user will be asked to specify the path where the results are to be saved and the name to be assigned to the file; in the second case, the results will be displayed in the terminal. The first option is recommended for many samples.
+
+
+
+## References
+The following project was developed at the Pharmaceutical Sciences and Engineering Departments of the University of Perugia. The student Gianmarco Luchetti Sfondalmondo followed this development as a master's thesis project, under the supervision of Professor Antonio Macchiarulo and Professor Gianluca Reali.
