@@ -52,5 +52,3 @@ After execution, the software will ask the user whether to save the results obta
 
 ## References
 The following project was developed at the Pharmaceutical Sciences and Engineering Departments of the University of Perugia. The student Gianmarco Luchetti Sfondalmondo followed this development as a master's thesis project, under the supervision of Professor Antonio Macchiarulo and Professor Gianluca Reali.
-
-![University of Perugia logo.](https://github.com/GianmarcoLuchetti/IDO1-AI-Classifier/blob/main/img/unipg.png)
