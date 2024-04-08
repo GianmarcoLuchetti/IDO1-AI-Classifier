@@ -30,7 +30,7 @@ def main(dataset_path):
 
 if __name__ == '__main__':
     print('')
-    print('IDO1-AI Classifier Version 0.1  \n')
+    print('IDO1-AI-Classifier Version 0.1  \n')
     print('')
 
     path = input("Enter the path to the dataset: ")
