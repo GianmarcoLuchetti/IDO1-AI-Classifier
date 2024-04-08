@@ -48,7 +48,7 @@ The software will run and ask the user to enter the path to the dataset containi
 
 After execution, the software will ask the user whether to save the results obtained, which will always include the SMILES string of the sample, the predicted activity class, and the prediction probability. In the first case, the user will be asked to specify the path where the results are to be saved and the name to be assigned to the file; in the second case, the results will be displayed in the terminal. The first option is recommended for many samples.
 
-![Example of results obtained from the previous dataset.](https://github.com/GianmarcoLuchetti/IDO1-AI-Classifier/blob/main/img/res.png)
+![Example of results obtained from the previous dataset.](https://github.com/GianmarcoLuchetti/IDO1-AI-Classifier/blob/main/img/res.gif)
 
 ## References
 The following project was developed at the Pharmaceutical Sciences and Engineering Departments of the University of Perugia. The student Gianmarco Luchetti Sfondalmondo followed this development as a master's thesis project, under the supervision of Professor Antonio Macchiarulo and Professor Gianluca Reali.
